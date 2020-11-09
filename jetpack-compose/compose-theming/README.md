@@ -1,39 +1,14 @@
-# Jetpack Compose Codelabs
+# Jetpack Compose Theming Codelab
 
-This repository contains a set of Android Studio projects to help you learn about
-Compose in Android. Each sample contains the code for a specific Compose codelab.
+This folder contains the source code for the [Jetpack Compose Theming codelab](https://codelabs.developers.google.com/codelabs/android-compose-theming).
 
-For more information about Jetpack Compose, please [read the documentation](https://developer.android.com/jetpack/compose)
+In this codelab you will learn how to use [Jetpack Compose](https://developer.android.com/jetpack/compose)’s theming APIs to style your application. We’ll see how to customize colors, shapes and typography so that they’re used consistently throughout your application, supporting multiple themes such as light & dark theme.
 
-## 💻 Requirements
+## Screenshots
 
-[Android Studio 4.2 Canary](https://developer.android.com/studio/preview/index.html) or newer.
-
-## 🧬 Codelabs
-
-### [Basics codelabs](https://codelabs.developers.google.com/codelabs/jetpack-compose-basics)
-
-Go hands-on and learn the fundamentals of declarative UI, working with state, layouts and theming.
-
-### [Layouts codelabs](https://codelabs.developers.google.com/codelabs/jetpack-compose-layouts)
-
-Learn how layout works in Jetpack Compose, how to use the built-in layouts,
-[modifiers](https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier),
-and even building your own custom layout.
-
-### [State codelab](https://codelabs.developers.google.com/codelabs/jetpack-compose-state)
-
-Understand patterns for working with state in a declarative world by building a Todo application.
-
-### [Theming codelab](https://codelabs.developers.google.com/codelabs/jetpack-compose-theming)
-
-Go hands on with Compose’s implementation of Material Design to understand how to theme an
-application’s colors, typography and shapes and support light and dark themes.
-
-### [Migration codelab](https://codelabs.developers.google.com/codelabs/jetpack-compose-migration)
-
-Understand how Jetpack Compose and View-based UIs can co-exist and interact, making it easy to
-adopt Compose at your own pace.
+![Start state](screenshots/start.png "Before: unstyled app")
+![Finish state, light](screenshots/finish_light.png "After: styled app")
+![Finish state, dark](screenshots/finish_dark.png "After: dark theme")
 
 ## License
 
